@@ -1,11 +1,12 @@
-import React from 'react'
+import ToDoListForm from "@/components/ToDoListForm";
+import React from "react";
 
 const HomePage = () => {
   return (
-    <div className='p-4 bg-black text-white h-screen flex flex-col items-center justify-center'>
-        <form action="/"></form>
+    <div className="flex h-screen flex-col items-center justify-center bg-black p-4 text-white">
+      <ToDoListForm />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
