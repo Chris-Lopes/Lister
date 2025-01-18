@@ -9,6 +9,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox"; // Import ShadCN Checkbox
+import { turso } from "@/lib/turso";
 
 interface Task {
   id: number;
